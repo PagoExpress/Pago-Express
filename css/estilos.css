@@ -9,7 +9,7 @@
 
 .slider-frame {
 	width: 100%;
-    height: 760px;
+    height: 100%;
 	margin: 10px auto 0;
 	overflow: hidden;
 }
@@ -78,7 +78,7 @@ header {
 
 nav{
     text-align: right;
-    padding: 8px 50px 0 0;
+    padding: 8px 5px 0 0;
 }
 
 nav > a{
@@ -124,7 +124,7 @@ header .textos-header{
 /* About us */
 
 main .sobre-nosotros{
-    padding: 30px 0 60px 0;
+    padding: 30px 0 30px 0;
 }
 .contenedor-sobre-nosotros{
     display: flex;
@@ -133,14 +133,15 @@ main .sobre-nosotros{
 
 .imagen-about-us{
     width: 50%;
+    height: 50%;
 }
 
 .sobre-nosotros .contenido-textos{
-    width: 48%;
+    width: 45%;
 }
 
 .contenido-textos h3{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .contenido-textos h3 span{
@@ -157,7 +158,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos p{
-    padding: 0px 0px 30px 15px;
+    padding: 0px 0px 15px 15px;
     font-weight: 300;
     text-align: justify;
 }
