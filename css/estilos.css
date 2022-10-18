@@ -55,6 +55,7 @@ body {
     max-width: auto;
     margin: auto;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .titulo {
@@ -229,6 +230,7 @@ main .sobre-nosotros{
 .contenedor-sobre-impulsa{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .imagen-about-impu{
@@ -348,6 +350,7 @@ main .sobre-nosotros{
 .about-services{
     background: #ffffff;
     padding-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 
