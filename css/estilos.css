@@ -121,7 +121,7 @@ header .textos-header{
     width: 100%;
 }
 
-/* About us */
+/* Sobre Nosotros */
 
 main .sobre-nosotros{
     padding: 30px 0 30px 0;
@@ -191,12 +191,6 @@ main .sobre-nosotros{
     height: 100%;
     object-fit: cover;
     display: block;
-}
-
-.imagen-poup{
-    width: 40%;
-    overflow: hidden;
-    position: relative;
 }
 
 .hover-galeria{
@@ -272,8 +266,8 @@ main .sobre-nosotros{
 
 .overlay {
     position: fixed;
-    top: 0;
-    bottom: 0;
+    top: 0px;
+    bottom: 0px;
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
@@ -286,12 +280,34 @@ main .sobre-nosotros{
     opacity: 1;
 }
 
+.imagen-poup{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
 
+.popupContent{
+     display: flex;
+    justify-content: space-evenly;
+}
+
+.popupContent h1{
+    color: #068631;
+    font-size: 20px;
+    
+}
+
+.popupContent p{
+    color: #000000;
+    font-size: 17px;
+    
+}
 
 #popupBody{
     width: 60%;
     padding: 2%;
-    border-radius: 15px;
+    border-radius: 50px;
     box-shadow: 0 0 5px #CCC;
     background: #FFF;
     position: relative;
@@ -311,7 +327,7 @@ main .sobre-nosotros{
 
 
 
-/* Clients */
+/* Clientes */
 
 .cards{
     display: flex;
@@ -348,7 +364,7 @@ main .sobre-nosotros{
     padding-top: 5px;
 }
 
-/*  Our team */
+/*  Nuestro Equipo */
 
 .about-services{
     background: #ffffff;
@@ -388,7 +404,7 @@ main .sobre-nosotros{
     text-align: justify;
 }
 
-/* footer */
+/* Pie de pagina */
 
 footer{
     background: #414141;
@@ -509,7 +525,7 @@ footer{
         font-size: 20px;
     }
 
-    /* ABOUT US */
+    /* sobre nosotros */
 
     .imagen-about-us{
         margin-bottom: 60px;
@@ -526,7 +542,7 @@ footer{
         width: 95%;
     }
 
-    /* Clients */
+    /* Clientes */
 
     .cards .card{
         height: 450px;
@@ -540,7 +556,7 @@ footer{
         height: 90px;
     }
 
-    /* Footer */
+    /* Pie de Pagina */
 
     .contenedor-footer{
         flex-direction: column;
