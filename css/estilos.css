@@ -133,8 +133,8 @@ main .sobre-nosotros{
 }
 
 .imagen-about-us{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .sobre-nosotros .contenido-textos{
@@ -669,3 +669,4 @@ footer{
     filter:grayscale(0%);
 
 }
+
