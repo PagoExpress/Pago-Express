@@ -160,7 +160,7 @@ main .sobre-nosotros{
 
 .contenido-textos p{
     padding: 0px 0px 15px 15px;
-    font-weight: 300;
+    font-weight: 600;
     text-align: justify;
 }
 
@@ -669,5 +669,6 @@ footer{
     filter:grayscale(0%);
 
 }
+
 
 
