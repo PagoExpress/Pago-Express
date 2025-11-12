@@ -17,7 +17,7 @@
 .slider-frame ul {
 	display: flex;
 	padding: 0;
-	width: auto;
+	width: 100%;
 	animation: slide 15s infinite alternate ease-in-out;
 }
 
@@ -669,6 +669,7 @@ footer{
     filter:grayscale(0%);
 
 }
+
 
 
 
