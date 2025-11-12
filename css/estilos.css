@@ -78,7 +78,7 @@ header {
 }
 
 nav{
-    text-align: right;
+    text-align: left;
     padding: 8px 5px 0 0;
 }
 
@@ -669,6 +669,7 @@ footer{
     filter:grayscale(0%);
 
 }
+
 
 
 
