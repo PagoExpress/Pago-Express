@@ -27,7 +27,7 @@
 }
 
 .slider-frame img {
-	width: 100%;
+	width: auto;
 }
 
 @keyframes slide {
@@ -669,6 +669,7 @@ footer{
     filter:grayscale(0%);
 
 }
+
 
 
 
