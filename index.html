@@ -13,10 +13,10 @@
 
 <body>
     <header>
-        
+            
         <nav>
-            <img src="img/LogoBlanco.png"  width="230" height="60"></a>
-            <a>|</a>
+            <a><img src="img/LogoBlanco.png"  width="230" height="60"></a>
+            <a></a>
             <a href="#inicio">Inicio</a>
             <a>|</a>
             <a href="#nuestraempresa">Nuestra Empresa</a>
@@ -26,9 +26,11 @@
             <a href="#Impulsa">Impulsa tu Negocio</a>
             <a>|</a>
             <a href="aviso-privacidad.html">Aviso de privacidad</a> 
-            <a></a><a></a><a></a><a></a><a></a> <a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a>  
-            <a href="https://www.intermexonline.com/es" target="_blank"><img src="img/Corporativo.png"  width="449" height="50"></a>
-        </nav>       
+            <div style="float: right;">
+                <a href="https://www.intermexonline.com/es" target="_blank"><img src="img/Corporativo.png"  width="449" height="50"></a>
+            </div>
+        </nav>
+               
         <section class="slider-frame">           
                 <ul>
                     <li><img src="img/portada2.png" alt=""></li>
@@ -37,14 +39,6 @@
                     <li><img src="img/portada1.png" alt=""></li>
                 </ul>
         </section>
-
-        <div class="wave" style="height: 70px; overflow: hidden;">
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #068631;"></path>
-            </svg>
-        </div>
     </header>
     <main>
         <section id="nuestraempresa" class="contenedor sobre-nosotros" >
@@ -57,12 +51,50 @@
                 </div>
             </div>
         </section>
-        <section id="Impulsa" class="contenedor sobre-impulsa">
-            <h2 class="titulo">Quieres ser agente pagador</h2>
-            <img src="img/Logo.png" alt="" class="imagen-about-impu">
+        <section id="nuestraempresa" class="contenedor sobre-nosotros" >
+            <div class="contenedor-sobre-nosotros">
+                <div class="contenedor">
+                    <img src="img/LogoPlano.png" alt="" class="imagen-about-us" style="display: block; margin: 0 auto;">
+                    <img src="img/Mundo.png" alt="" class="imagen-about-mu" style="display: block; margin: 0 auto;">
+                </div>
+            </div>
+        </section>
+        <section id="conocenos" class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Conocenos</h2>
+                <h2 class="titulo"></h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/Switchmetricas.png" alt="">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Switchcliente.png" alt="">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Switchenfoque.png" alt="">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Switchcalidad.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Impulsa" class="about-services">
+                <div>
+                    <h2 class="titulo">Impulsa tu negocio</h2>
+                    <img src="img/Impulsa.png"  width="100%" height="auto">
+                </div>
+        </section>
+        <section class="contenedor sobre-impulsa">
             <div class="contenedor-sobre-impulsa">
                 <div class="impulsa-textos">
-                    <p></p>
+                    <h2 class="titulo">¿Quieres ser un agente pagador?</h2>
+                    <div class="contenido-textos">
+                    <p>
+                        Conviértete en agente y ofrece más valor a tus clientes.
+                    </p>
+                    </div>
+                   <p></p>
                     <p></p>
                     <p></p>
                     <p></p>
@@ -75,19 +107,16 @@
                     </p>
                     <p></p>
                     <p></p>
-                    <h3><span>Tel:  800-831-77-44  </span> </h3>
-                     <p></p>
-                     <h3><span>Correo: test@intermexusa.com  </span> </h3>
+                    <h3><span>800-831-77-44</span> </h3>
                     <p></p>
                     <p></p>
                     <p>Disponible en toda la República Mexicana y sin costo</p>
                     <h3> </h3>
-                    <p>test@intermexusa.com  Escríbenos, con gusto te atendemos.</p>
+                    <p>salesteam@intermexusa.com  Escríbenos, con gusto te atendemos.</p>
                     <h3></h3>
                     <P>Oficinas corporativas</P>
                     <p>Libramiento San Juan No. 49 3 piso </p>
                     <p>72180 Puebla, Pue.</p>
-                    
                 </div>
 
                 <div class="form-register">
@@ -103,98 +132,42 @@
             </div>
             
         </section>
-       
-        <section id="aviso" class="about-services">
-            <div>
-                <!--<img src="img/Logo.png" width="400" height="100" >
-                <h2 class="titulo">.</h2>-->
-                    <div>
-                        <p><a href="aviso-privacidad.html"><img src="img/avisodeprivasidad.jpg"  alt=""> </a></p>
-                    </div>
-                <!--<div class="servicio-cont">
-                    <h1 style="font-size: 15px"><center>AVISO DE PRIVACIDAD</center> <br></br>
-                        <p> Los datos personales que INTERMEX ha recabado o recabará de usted, son manejados responsablemente a través de los sistemas de procesamiento de datos que INTERMEX utiliza, tratándose de manera confidencial a través de los sistemas provistos para tales efectos, con la finalidad de cumplir con las disposiciones legales aplicables, entre ellos las obligaciones que derivan de la relación jurídica que INTERMEX mantiene con usted.
-                            Asimismo, le informamos que sus datos personales podrán ser transferidos a terceros, nacionales o extranjeros, así como a sus afiliadas, subsidiarias, controladoras, asociadas o sociedades integrantes distintos del responsable o encargado, conforme a las finalidades y especificaciones del presente aviso de privacidad.
-                            En dichos supuestos, le informamos que INTERMEX como responsable de los datos personales, le garantiza que el presente Aviso de Privacidad será respetado en todo momento y se adoptarán las medidas necesarias para que las personas que tengan acceso a sus datos personales cumplan con el mismo, así como con los principios de protección de datos personales establecidos en la Ley.
-                            Usted como titular de sus datos personales, podrá ejercer cualquiera de los derechos de acceso, rectificación, cancelación u oposición (“Derechos ARCO”), asimismo, podrá revocar su consentimiento para el tratamiento de sus datos personales enviando un correo electrónico al [Encargado de Datos Personales / Departamento de Datos Personales] de INTERMEX a la dirección electrónica [rh@intermexusa.com]
-                            Para la debida atención en tiempo y forma de sus Derechos ARCO solicitamos que en su petición señale lo siguiente:
-                            Nombre del titular y cuenta de correo electrónico para informarle sobre la respuesta a la solicitud enviada
-                            Adjuntar documento que acredite su identidad o representación legal del titular, en su caso. 
-                            Descripción clara y precisa de los datos personales respecto de los cuales busca ejercer alguno de los Derechos ARCO.
-                            Adjuntar cualquier otro documento o elemento que facilite la localización de los datos personales. 
-                            En el caso de solicitudes de rectificación, el titular de los datos personales debe indicar las modificaciones que habrán de realizarse, aportando la debida documentación que sustente su petición.
-                        </p>
-                    </h1>
-                </div>-->
-            </div>  
-        </section>
-       <!-- <section class="icon">
-            <h2 class="titulo">Aliados Estrategicos</h2>
-            <div class="galeria-icon">              
-                    <div class="grises">
-                    <img src="img/Logo1.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo2.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo3.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo4.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo5.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo6.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo7.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo8.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo9.png" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo10.jpeg" alt="" width="200" height="200" >
-                    </div>
-                    <div class="grises">
-                    <img src="img/Logo11.png" alt="" width="200" height="200" >
-                    </div>
-            </div>
-        </section>-->
     </main>
     <footer>
         <div class="contenedor-footer">
             <div class="content-foo">
-                <h4>Horarios de atención</h4>
-                <p>Lunes a Domingo : 8:00 a 21:00 hrs.</p>
-                <p>Tel: 800-831-77-44</p>
-                <br></br>
-                <p><a href="" target="_blank"><img src="img/Contacto.png"  alt="" width="120" height="85"> </a></p>   
-                
+                <img src="img/LogoBlanco.png"  alt="" width="230" height="60">
             </div>
             <div class="content-foo">
                 <h4>Contactanos</h4>
-                <p>test@intermexusa.com</p>
-                <p>.</p>
                 <br></br>
-                <p><a href="mailto:" target="_blank"><img src="img/Correo.png"  alt="" width="120" height="85"> </a></p>
+                <p><a><img src="img/bxs_phone-call.png"> </a>&nbsp;&nbsp;&nbsp;+ 52 800-831-77-44</p>
+                <br></br>
+                <p><a><img src="img/ic_sharp-email.png"> </a>&nbsp;&nbsp;&nbsp;test@intermexusa.com</p>
+                <br></br>
+                <p><a><img src="img/carbon_location-filled.png"> </a>&nbsp;&nbsp;&nbsp;Libramiento San Juan No. 49 3 piso</p>
+                <p>72180 Puebla, Pue.</p>
+                
             </div>
             <div class="content-foo">
-                <h4>Ubicacion</h4>
-                <p>Libramiento San Juan No. 49 3 piso </p>
-                <p>72180 Puebla, Pue.</p>
+                <h4>Acerca de</h4>
                 <br></br>
-                <p><a href="" target="_blank"><img src="img/Ubicacion.png"  alt="" width="120" height="85"> </a></p>
+                <p>Contact Us</p>
+                <br></br>
+                <p>Return</p>
+                <br></br>
+                <p>FAQ</p>
+            </div>
+            <div class="content-foo">
+                <h4>Recibe actualizaciones</h4>
+                <br></br>
+                <input class="controls" type="email" name="correo" id="correo" placeholder="correo">
+                <a href="index.html"><img src="img/Button.png"></a>
             </div>
         </div>
         <br></br>
         <p style="color: white; text-align: center;">Todos los derechos reservados de Intermex Transfers de México, S.A. de C.V. 2025 ©&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Registro CNBV 20609 vigente hasta 20 de Agosto de 2026</p>
-        <h2 class="titulo-final">&copy;Copyright PAGO EXPRESS 2025</h2>
+        <h2 class="titulo-final"></h2>
     </footer>
 </body>
 
