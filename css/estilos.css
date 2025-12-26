@@ -133,7 +133,7 @@ main .sobre-nosotros{
 }
 
 .imagen-about-us{
-    max-width: 60%;
+    max-width: 30%;
     height: auto;
 }
 
@@ -676,6 +676,7 @@ footer{
     filter:grayscale(0%);
 
 }
+
 
 
 
